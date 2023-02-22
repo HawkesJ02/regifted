@@ -3,6 +3,7 @@
     <div>
       {{ gift.tag }}
     <img :src="gift.url" :alt="gift.tag + 'Image here'">
+    <span>{{ gift.opened }}</span>
     </div>
     
   </div>
